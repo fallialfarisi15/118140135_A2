@@ -1,0 +1,63 @@
+$orange : rgb(255, 128, 0);
+$abuTipisBgt: rgba(128, 128, 128, .3);
+$abuTipis: rgba(128, 128, 128, .7);
+$abu: rgb(128, 128, 128);
+
+.header{
+    width: 800px;
+    height: 200px;
+    border: solid black 1px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    color: rgb(255, 128, 0);
+    background-color: $abuTipisBgt;
+}
+.isi{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+}
+.navbar{
+    width: 250px;
+    border-right: solid black 1px;
+    background-color: $orange;
+    ul{
+        list-style-type: none;
+        padding-left: 0px;
+        margin-top: 0px;
+        li{
+            border-bottom: solid $abuTipis 1px;
+            background-color: $orange;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        li:hover{
+            background-color: $abuTipis;
+        }
+    }
+}
+.article{
+    width: 550px;
+    text-align: center;
+    color: $orange;
+    text-decoration: underline $abu;
+    img{
+        width: 35%;
+    }
+    img:hover{
+        width: 45%;
+    }
+}
+.footer{
+    width: 800px;
+    border: solid black 1px;
+    text-align: center;
+    color: $orange;
+    background-color: $abuTipisBgt;
+}

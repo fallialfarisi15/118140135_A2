@@ -1,0 +1,64 @@
+.header {
+  width: 800px;
+  height: 200px;
+  border: solid black 1px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 40px;
+  color: #ff8000;
+  background-color: rgba(128, 128, 128, 0.3);
+}
+
+.isi {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  border-right: solid black 1px;
+  border-left: solid black 1px;
+}
+
+.navbar {
+  width: 250px;
+  border-right: solid black 1px;
+  background-color: #ff8000;
+}
+.navbar ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.navbar ul li {
+  border-bottom: solid rgba(128, 128, 128, 0.7) 1px;
+  background-color: #ff8000;
+  text-align: center;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar ul li:hover {
+  background-color: rgba(128, 128, 128, 0.7);
+}
+
+.article {
+  width: 550px;
+  text-align: center;
+  color: #ff8000;
+  text-decoration: underline gray;
+}
+.article img {
+  width: 35%;
+}
+.article img:hover {
+  width: 45%;
+}
+
+.footer {
+  width: 800px;
+  border: solid black 1px;
+  text-align: center;
+  color: #ff8000;
+  background-color: rgba(128, 128, 128, 0.3);
+}
+
+/*# sourceMappingURL=tugas.css.map */
